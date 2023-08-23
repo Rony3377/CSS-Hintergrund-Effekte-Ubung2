@@ -1,0 +1,98 @@
+@media screen and (min-width: 600px) {
+  main .main-box {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 20% 20% 40% 20%;
+  }
+  header .header-box {
+    border: indigo solid 2px;
+    background-color: ivory;
+    grid-column: 1 / span 4;
+    grid-row-start: 1;
+  }
+  .header-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .header-box .h1 {
+    border: tomato solid 2px;
+    background-color: violet;
+    border-radius: 25%;
+  }
+  .header-box .h2 {
+    border: yellow solid 2px;
+    background-color: rgb(197, 169, 197);
+    border-radius: 25%;
+  }
+  .header-box .h3 {
+    border: slateblue solid 2px;
+    background-color: turquoise;
+    border-radius: 25%;
+  }
+
+  .header-box .h4 {
+    border: rgb(39, 0, 130) solid 2px;
+    background-color: rgb(110, 110, 18);
+  }
+
+  .main-box .feld-1 {
+    border: rgb(39, 0, 130) solid 2px;
+    background-color: rgb(110, 110, 18);
+    grid-column: 1 / span 2;
+    grid-row-start: 2;
+  }
+  .main-box .feld-2 {
+    border: purple solid 2px;
+    background-color: seashell;
+    grid-column-start: 4;
+    grid-row: 2 / span 2;
+  }
+  .main-box .feld-3 {
+    border: lightslategray solid 2px;
+    background-color: mediumpurple;
+    grid-column: 2 / span 2;
+    grid-row: 3 / span 2;
+  }
+  .main-box .feld-4 {
+    border: midnightblue solid 2px;
+    background-color: rgb(18, 84, 110);
+    grid-column-start: 1;
+    grid-row-start: 3;
+  }
+  .main-box .feld-5 {
+    border: orangered solid 2px;
+    background-color: rgb(18, 110, 59);
+    grid-column-start: 1;
+    grid-row-start: 4;
+  }
+
+  .main-box img {
+    width: 100px;
+  }
+
+  footer {
+    border: rgb(24, 24, 230) solid 2px;
+    background-color: tan;
+    grid-column: 1 / span 4;
+    grid-row-start: 4;
+  }
+
+  .f1 {
+    justify-content: center;
+    display: flex;
+  }
+  .f3 {
+    justify-content: center;
+  }
+  footer .footer-box div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .f1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

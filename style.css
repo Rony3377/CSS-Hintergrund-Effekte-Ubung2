@@ -1,0 +1,29 @@
+/******body******/
+body {
+  background-image: url(https://www.journey-deluxe.de/wp-content/uploads/2021/07/reiseziele-im-september-scaled.jpg);
+}
+/*****main*****/
+.main-box .feld-1 {
+  background-image: linear-gradient(135deg, plum 50%, aliceblue 25%, skyblue);
+}
+.main-box .feld-2 {
+  background-image: radial-gradient(circle at center center, red, blue);
+}
+.main-box .feld-3 {
+  background-image: linear-gradient(
+    135deg,
+    rgb(144, 27, 144) 50%,
+    rgb(30, 36, 42) 25%,
+    skyblue
+  );
+}
+.main-box .feld-4 {
+  background-image: radial-gradient(
+    circle at center center,
+    rgb(141, 108, 108),
+    rgb(151, 151, 197)
+  );
+}
+.main-box .feld-5 {
+  background-image: conic-gradient(aqua, skyblue, red, violet);
+}

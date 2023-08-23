@@ -1,0 +1,59 @@
+@media screen and (max-width: 599px) {
+  main .main-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  header .header-box {
+    display: flex;
+
+    justify-content: center;
+
+    border: blue solid 2px;
+    width: 599px;
+  }
+  .main-box div {
+    margin: 20px;
+  }
+  .main-box img {
+    width: 150px;
+  }
+
+  .main-box .feld-1 {
+    border: springgreen solid 2px;
+    width: 500px;
+    display: flex;
+
+    justify-content: center;
+  }
+  .main-box .feld-2,
+  .feld-3,
+  .feld-4 {
+    border: teal solid 2px;
+    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+  }
+  .main-box .feld-5 {
+    border: yellowgreen solid 2px;
+    width: 500px;
+    display: flex;
+
+    justify-content: center;
+  }
+  footer {
+    border: slategrey solid 2px;
+    width: 500px;
+    justify-content: center;
+    display: flex;
+  }
+  .f1 {
+    justify-content: center;
+    display: flex;
+  }
+  .f3 {
+    justify-content: center;
+  }
+}
